@@ -1,3 +1,3 @@
-#This project was made with ReactJS.
+# This project was made with ReactJS.
 
-###Test your knowledge of React through with this quiz
+### Test your knowledge of React through with this quiz
