@@ -9,35 +9,29 @@ body {
 
 * {
   font-family: "Verdana", cursive, sans-serif;
+
   color: #ffffff;
   text-align: center;
 }
 
 body {
-  background-color: #fdfcdc;
+  background-color: #FF5928;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+
 }
 
-#first, #second {
- display: flex;
- position:absolute;
- top:10px;
- left:5px;
+#header{
+ margin-right: 20px;
+ -webkit-text-stroke: 2px white;
 }
 
 h1 {
  font-size: 5em;
  color: #0081a7;
 }
-
- #second h1 {
-  font-size: 5em;
-  color: #00afb9;
-  padding: 2px 4px;
- }
 
 .app {
   background-color: #0081a7;
