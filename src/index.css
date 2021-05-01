@@ -15,7 +15,6 @@ body {
 }
 
 body {
-  background-color: #FF5928;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +24,10 @@ body {
 
 #header{
  margin-right: 20px;
- -webkit-text-stroke: 2px white;
+ -webkit-text-stroke: 2px #FFDFD1;
+ border: 1px solid #0D6E96;
+ border-radius: 15px;
+ box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
 
 h1 {
@@ -40,7 +42,7 @@ h1 {
   height: min-content;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
   display: flex;
   justify-content: space-evenly;
 }
